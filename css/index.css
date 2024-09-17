@@ -3,5 +3,32 @@
     background-image: url(../images/20240915_214128.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50%;
  font-family: sans-serif;
+ height: 768px;
+}
+ .custom-nav{
+    margin-right: 0 !important;
+ }
+
+ .button-header{
+
+    background-color: #f1ebe9 !important;
+    font-size: 12px;
+ }
+
+ .dropdown-menu{
+    background-color: #f1ebe9 !important;
+ }
+ .dropdown-item:hover{
+    background-color: black;
+    color: white;
+ }
+
+h2{
+    line-height: 48px;
+}
+
+.icon-img{
+    width: 50px;
 }
