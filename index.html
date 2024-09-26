@@ -12,22 +12,27 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row custom mb-5">
-            <div class="col-10 mx-auto">
-                <nav class="navbar navbar-expand-lg bg-transparent mt-2">
+    <div class="container-fluid custom">
+        <div class="row">
+            <div class="col-lg-12 col-xxl-10 mx-xxl-auto">
+                <nav class="navbar navbar-expand-lg bg-transparent mt-lg-2">
                     <div class="container-fluid">
-                        <a class="navbar-brand text-white fs-4 fw-bold" href="#">Radan</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        <a class="d-block d-md-none d-lg-block navbar-brand text-white fs-4 fw-bold" href="#">Radan</a>
+                        <button class="navbar-toggler border-0 ms-auto" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto custom-nav">
+                            <ul class="navbar-nav me-0 mb-2 mb-lg-0 ms-auto">
 
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle text-white fw-bold me-2" href="#" role="button"
@@ -108,42 +113,65 @@
                             </ul>
 
                         </div>
-                        <a href="#"> <i class="bi bi-cart text-white ms-2 me-5 fs-6 "></i></a>
-                        <button type="button" class=" button-header fw-bold text-black px-3   rounded-0">BUY
+                        <a href="#"> <i
+                                class="d-none d-md-none d-lg-block bi bi-cart text-white ms-2 me-5 fs-6"></i></a>
+                        <button type="button"
+                            class="d-none d-md-none d-lg-block button-header fw-bold text-black px-xl-3 px-lg-1 rounded-0">BUY
                             EDITH
                             THEME<i class="bi bi-arrow-right fs-5 ms-1"></i></button>
                     </div>
                 </nav>
             </div>
-            <div class="col-7 mt-5 mx-auto">
-                <h2 class=" text-center text-white  mt-5 pt-5 fw-bold">Measuring excellence in coding by the
+
+        </div>
+        <div class="row">
+            <div class="col-11 col-md-6 col-lg-6 col-xxl-7 mt-lg-5 mx-auto mt-5 txt-header">
+                <h2 class=" text-center text-white  pt-5 fw-bold">Measuring excellence in coding by the
                     number of lines
                     of code is like measuring weight when building
                     an airplane. So the less the better.</h2>
-                <img src="images/icon-w.png" class="img-logo d-block mx-auto mt-5 pt-5 ">
+                <img src="images/icon-w.png" class="img-logo d-block mx-auto mt-5">
             </div>
         </div>
-        <div class="row pt-4">
-            <div class="col-12 my-4 mx-auto">
-                <p class="w-50  mx-auto text-center">I AM HONORED TO HAVE BEEN MENTIONED BY</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-12 part-1 mx-auto pb-5">
+                <p class="w-lg-50  mx-auto text-center">I AM HONORED TO HAVE BEEN MENTIONED BY</p>
             </div>
-            <div class="col-12 d-flex align-items-center justify-content-center mx-auto  mb-5">
+            <div class="col-12">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/forbes.webp" class="d-block img-icon">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Glamour.webp" class="d-block img-icon">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/vanity.webp" class="d-block img-icon">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/vogue.webp" class="d-block img-icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-lg-12 d-flex align-items-center justify-content-center mx-auto  mb-5">
                 <img src="images/forbes.webp" class="img-icon me-5">
                 <img src="images/Glamour.webp" class="img-icon me-5">
                 <img src="images/vanity.webp" class="img-icon me-5">
                 <img src="images/vogue.webp" class="img-icon me-5">
-            </div>
+            </div> -->
         </div>
-
     </div>
-
-    <div class="container main-2 mb-5">
-        <div class="row">
-            <div class="col-4 offset-2">
-                <p class="mb-3">FOCUS ON</p>
-                <p class="fw-bold fs-3 mb-3">My name is Radan, I am a WordPress site designer and SEO expert.
+    <div class="container">
+        <div class="row main-2 pb-5">
+            <div class="col-9 col-md-4 col-lg-5 col-xl-4 px-4 offset-xl-1 offset-xxl-2">
+                <p>FOCUS ON</p>
+                <p class="fw-bold fs-3 mb-0 ">My name is Radan, I am a WordPress site designer and SEO expert.
                     And now I am learning web programming and Python.</p>
-                <ul class="container-social p-0 fs-6 ">
+                <ul class="container-social p-0 fs-6 mb-0 py-4">
                     <li class="me-3"> <a class="link" href="#"><i class="bi bi-facebook"></i></a></li>
                     <li class="me-3"> <a class="link" href="#"><i class="bi bi-instagram"></i></a></li>
                     <li class="me-3"> <a class="link" href="#"><i class="bi bi-linkedin"></i></a></li>
@@ -151,7 +179,7 @@
                     <li class="me-3"> <a class="link" href="#"><i class="bi bi-pinterest"></i></a></li>
                 </ul>
             </div>
-            <div class="col-5 ">
+            <div class="col-11 col-md-5 col-lg-6 col-xl-5 px-4 offset-lg-1 fs-6">
                 <p>Website design is one of the most important steps to succeed in today's digital world. Due to the
                     ever-increasing growth of the Internet and the need for an online presence, having a professional
                     website can help you introduce your business to a larger audience and better connect with your
@@ -163,7 +191,7 @@
                     buy and interact more with your brand.
 
                 </p>
-                <p class="fw-bold fs-4"> Also, website design allows you to keep your content up-to-date and share
+                <p class="fw-bold fs-5"> Also, website design allows you to keep your content up-to-date and share
                     important information with
                     your customers easily. Through the website, you can showcase your services and products and use
                     digital marketing tools to increase your visibility.</p>
@@ -173,7 +201,7 @@
 
     <div class="container-fluid part-third mt-5">
         <div class="row pt-5">
-            <div class="col-6 offset-1">
+            <div class="col-12 col-lg-7 col-xl-6 px-4 offset-xxl-1 pt-5">
                 <p class="text-uppercase mb-0">Newsletter</p>
                 <h2 class="fw-bold">Keep in touch </h2>
                 <p>So, if you don't have a website yet or your current website needs updating, now is the perfect time
@@ -184,33 +212,33 @@
                     into
                     the digital world together and take advantage of its unique opportunities!</p>
             </div>
-            <div class="col-5  container-email mb-5">
-                <label for="email" class="d-block position-relative">Email <sup
-                        class="text-danger fs-6 position-absolute top-50 ms-1">*</sup></label>
+            <div class="col-12 col-lg-5 col-xl-5 offset-xl-1 offset-xxl-0 container-email px-4 my-4">
+                <label for="email" class="d-block position-relative txt-email ">Email <sup
+                        class="text-danger star fs-6 position-absolute top-50 ms-1">*</sup></label>
 
-                <input type="email" name="email" id="email" class="w-50 ps-2 py-1 part-input">
+                <input type="email" name="email" id="email" class="w-100 px-2 py-2 mb-3 part-input">
                 <button type="submit"
-                    class="w-25 px-1 py-2 bg-black text-white text-uppercase fs-6 rounded rounded-2  ms-3">submit</button>
+                    class="w-100 w-lg-25 px-5 py-2 bg-black text-white text-uppercase fs-6 rounded rounded-2  ms-lg-3">submit</button>
             </div>
         </div>
-        <div class="row mt-5">
-            <div class="col-6 px-0 part-forth">
+        <div class="row section-fifth">
+            <div class="col-10 col-lg-6 col-xl-6 px-4 mx-auto part-forth">
             </div>
-            <div class="col-5 px-5 mt-5">
-                <h2 class="mb-4">My values</h2>
+            <div class="col-12 col-lg-6 col-xl-5 px-5 py-5 pb-3 part-value">
+                <h2 class="mb-4 fs-1 fw-bold">My values</h2>
                 <h4 class="fw-bold">Not to lie</h6>
-                    <p class="mb-5">I never lie and I am always honest with people around me
+                    <p class="pb-4">I never lie and I am always honest with people around me
                         In my opinion, lying is characteristic of weak and cowardly people who do not have the courage
                         to
                         tell the truth</p>
                     <h4 class="fw-bold">Not judging others</h6>
-                        <p class="mb-5">I always try not to judge people.
+                        <p class="pb-4">I always try not to judge people.
                             Because we are not all in the same situation and time, and good and bad are different from
                             everyone's point of view, and everyone is looking for the best way, but with their own
                             definitions.
                         </p>
                         <h4 class="fw-bold">Not making fun of others</h6>
-                            <p class="mb-5">I have never in my life allowed myself to make fun of someone just because
+                            <p class="pb-4">I have never in my life allowed myself to make fun of someone just because
                                 of their
                                 different
                                 appearance and living conditions, and in my opinion, people who make fun of others are
@@ -220,9 +248,178 @@
                                     class="bi bi-arrow-up-right fs-6 ms-2"></i></a>
             </div>
         </div>
+        <div class="row section-six">
+            <div class="col-11 col-lg-12 d-flex flex-column px-4 mx-auto align-items-center">
+                <img src="images/icon-black.png" class="img-logo2 mb-3 ">
+                <p class="text-uppercase">the blog</p>
+                <h3 class="fw-bold text-center">Three reasons why your brand needs a website</h3>
+            </div>
+
+        </div>
+
+        <div class="row mt-5 article-card px-lg-0">
+            <div class="col-11 col-lg-4 px-4 mx-auto">
+                <a href="#" class="text-decoration-none">
+                    <div class="card bg-transparent border-0">
+                        <img src="images/61606593.jpg" class="card-img-top rounded-0" alt="...">
+                        <div class="card-body rounded-0">
+                            <p class="card-text text-center fw-bold">With a website, your business is available to
+                                customers 24
+                                hours a day.
+                                This means increasing sales opportunities and attracting new customers</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-11 col-lg-4 px-4 mx-auto">
+                <a href=" #" class="text-decoration-none">
+                    <div class="card bg-transparent border-0">
+                        <img src="images/2.jpg" class="card-img-top rounded-0" alt="...">
+                        <div class="card-body rounded-0">
+                            <p class="card-text text-center fw-bold">A professional website will help you increase
+                                your
+                                brand
+                                credibility.
+                                Customers trust brands that have websites more</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-11 col-lg-4 px-4 mx-auto">
+                <a href=" #" class="text-decoration-none">
+                    <div class="card bg-transparent border-0">
+                        <img src="images/itarz.ir_.jpg" class="card-img-top rounded-0" alt="...">
+                        <div class="card-body rounded-0">
+                            <p class="card-text text-center fw-bold">With a website design, you can easily update
+                                your
+                                new
+                                information,
+                                services and products and inform customers about the latest news.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col btn-blog">
+                <button class="button d-block mx-auto text-uppercase bg-black text-white px-3 py-2">
+                    read the blog
+                </button>
+            </div>
+        </div>
+
 
     </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-11 col-lg-5 col-xl-5 col-xxl-4 px-4 py-5 mx-auto offset-xxl-1">
+                <p>focus on</p>
+                <p class="fw-bold fs-2">Website design allows you to keep your content up to date and share important
+                    information with your
+                    customers easily. Through the website, you can showcase your services and products and use digital
+                    marketing tools to increase your visibility.</p>
+                <p>
+                    So, if you don't have a website yet or your current website needs updating, now is the perfect time
+                    to
+                    start thinking about a professional website design. By doing this, you will not only help your
+                    business
+                    grow, but you can create a better position for yourself in today's competitive world. Let's step
+                    into
+                    the digital world together and take advantage of its unique opportunities</p>
+                <a href="#" class="text-decoration-none text-black text-uppercase fs-6">listen my last podcast<i
+                        class="bi bi-arrow-up-right fs-6 ms-2"></i></a>
+            </div>
+            <div class="col-10 col-lg-6 col-xl-6 part-six px-0 offset-1 order-first"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col h-75 px-0">
+                <div id="carouselExampleCaptions" class="carousel slide px-0 h-50">
+                    <div class="carousel-indicators bottom-50 container-circle">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active custom-circle" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2" class="custom-circle"></button>
+                    </div>
+                    <div class="carousel-inner part-seven">
+                        <div class="carousel-item active part-seven custom-img">
+                            <img src="images/best-laptop-for-programming.jpg" class="d-none d-sm-block w-100" alt="...">
+                            <div class="carousel-caption d-block d-md-block container-caption">
+                                <h2 class="mb-4 fw-bold">Website design</h2>
+                                <p class="fs-5">Any idiot can write codes that computers can understand, but good
+                                    programmers write
+                                    codes that other humans can understand.</p>
+                                <p class="fs-6">Martin Fowler</p>
+                            </div>
 
+                        </div>
+                        <div class="carousel-item active part-seven custom-img">
+                            <img src="images/best-laptop-for-programming.jpg" class="d-none d-sm-block w-100" alt="...">
+                            <div class="carousel-caption  d-block d-md-block container-caption">
+                                <h2 class="mb-4 fw-bold">Website design</h2>
+                                <p class="fs-5">Sometimes it's better to sleep in bed on the day off than to spend the
+                                    next week
+                                    debugging the codes of that day off.</p>
+                                <p class="fs-6">Dan Salomon</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div class="row part-third">
+            <div class="col-10 col-xl-12 col-xxl-11 offset-xxl-1 px-4 mx-auto my-5 ps-xl-5">
+                <a href="#"
+                    class="d-block position-relative position-sm-static text-center text-decoration-none text-black fw-bold fs-6">Are
+                    you ready to work together? <i
+                        class="position-absolute position-sm-static bi bi-arrow-up-right fs-6 ms-1 fw-bold"></i></a>
+            </div>
+            <hr class="border-2 border-black">
+        </div>
+        <div class="row part-third">
+            <div class="col-12 col-lg-4 col-xl-3 offset-xxl-1 ps-xl-4 px-4 py-5">
+                <h3 class="fw-bold mb-3">zahra radan</h3>
+                <p>Website design is important because it creates a user-friendly experience, improves brand identity,
+                    improves engagement and conversion rates.</p>
+                <ul class="container-social p-0 fs-6 mb-5">
+                    <li class="me-3"> <a class="link" href="#"><i class="bi bi-facebook"></i></a></li>
+                    <li class="me-3"> <a class="link" href="#"><i class="bi bi-instagram"></i></a></li>
+                    <li class="me-3"> <a class="link" href="#"><i class="bi bi-linkedin"></i></a></li>
+                    <li class="me-3"> <a class="link" href="#"><i class="bi bi-youtube"></i></a></li>
+                    <li class="me-3"> <a class="link" href="#"><i class="bi bi-pinterest"></i></a></li>
+                </ul>
+
+            </div>
+            <div class="col-12 col-lg-2 col-xl-3 col-xxl-2 offset-lg-1 px-4 py-5">
+                <h3 class="fw-bold mb-3">Shop</h3>
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+                <p>Refunds</p>
+                <p>Contact</p>
+                <p>Blog</p>
+            </div>
+            <div class="col-12 col-lg-2 col-xl-3 col-xxl-2 offset-lg-2 px-4 py-5">
+                <h3 class="fw-bold mb-3">Legal</h3>
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+                <p>Refunds</p>
+                <p>Contact</p>
+                <p>Blog</p>
+            </div>
+        </div>
+        <div class="row part-third">
+            <div class="col-12  col-lg-12 col-xxl-11 offset-xxl-1 ps-xl-4 px-4 position-relative">
+                <p class="my-5 text-black">© 2024 Edith - WordPress Theme by <a href="#"
+                        class="text-decoration-none text-black">Her creative details</a></p>
+                <a href="#" class="d-none d-sm-block text-black"><i
+                        class="bi bi-arrow-up-short fs-3 position-absolute link-footer mb-4 me-4 "></i></a>
+            </div>
+        </div>
+    </div>
 
 
 </body>
