@@ -156,9 +156,26 @@ h2 {
         padding-top: 80px !important;
     }
 
+    .section-fifth {
+        padding-top: 120px;
+    }
+
+    .btn-submit {
+        width: 150px !important;
+
+    }
+
+    .part-input {
+        width: 300px !important;
+    }
+
+    .txt-header {
+        padding-top: 160px !important;
+    }
 }
 
-@media all and (min-width:1200px) {
+
+@media all and (min-width:1200px) and (max-width:1399px) {
     .part-input {
         width: 300px !important;
     }
@@ -171,6 +188,18 @@ h2 {
         padding-top: 80px !important;
     }
 
+    .btn-submit {
+        width: 150px !important;
+
+    }
+
+    .section-fifth {
+        padding-top: 120px;
+    }
+
+    .txt-header {
+        padding-top: 160px;
+    }
 }
 
 @media all and (min-width:992px) and (max-width:1199px) {
@@ -178,8 +207,12 @@ h2 {
         font-size: 14px !important;
     }
 
+    .txt-header {
+        padding-top: 160px;
+    }
+
     .part-input {
-        width: 214px !important;
+        width: 500px !important;
     }
 
     .container-email {
@@ -190,6 +223,10 @@ h2 {
         padding-top: 80px !important;
     }
 
+    .btn-submit {
+        width: 200px !important;
+        margin-left: 20px;
+    }
 }
 
 @media all and (min-width:768px) and (max-width:991px) {
@@ -209,9 +246,45 @@ h2 {
         padding-top: 80px !important;
     }
 
+    .part-input {
+        width: 280px !important;
+    }
+
+    .btn-submit {
+        width: 150px !important;
+        margin-left: 20px;
+    }
+
+    .part-forth {
+        height: 400px;
+        margin-top: 80px !important;
+    }
+
+    .part-six {
+        height: 400px;
+    }
+
+    .custom-img {
+        background-image: url("../images/best-laptop-for-programming.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 40%;
+    }
+
+    .container-circle {
+        bottom: 175px !important;
+    }
+
+    .container-caption {
+        bottom: 230px !important;
+    }
+
+    .txt-header {
+        padding-top: 160px;
+    }
 }
 
-@media all and (max-width:575px) {
+@media all and (max-width:767px) {
     .img-icon {
         width: 180px;
         margin: 0 auto;
@@ -242,13 +315,17 @@ h2 {
     }
 
     .container-circle {
-        bottom: 60px !important;
+        bottom: 150px !important;
     }
 
     .container-caption {
-        bottom: 100px !important;
+        bottom: 200px !important;
     }
 
+
+}
+
+@media all and (max-width:575px) {
     .part-third>div>a {
         width: 174px !important;
     }
@@ -258,4 +335,11 @@ h2 {
         left: 190px;
     }
 
+    .container-circle {
+        bottom: 60px !important;
+    }
+
+    .container-caption {
+        bottom: 100px !important;
+    }
 }
