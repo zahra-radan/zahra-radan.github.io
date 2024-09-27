@@ -7,7 +7,7 @@
 }
 
 .custom {
-    background-image: url(../images/20240915_214128.jpg);
+    background-image: url(../images/best-laptop-for-programming.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -97,10 +97,18 @@ h2 {
     background-image: url(../images/photo_2024-09-25_17-21-24.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 500px;
+}
+
+.back-img2 {
+    background-image: url(../images/photo_2024-09-22_20-26-29.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .btn-blog {
-    padding: 60px 0;
+    padding: 80px 0;
 }
 
 .img-logo2 {
@@ -120,7 +128,7 @@ h2 {
 }
 
 .custom-img {
-    height: 600px;
+    height: 800px;
 }
 
 .container-circle {
@@ -133,9 +141,7 @@ h2 {
     border-radius: 50%;
 }
 
-.container-caption {
-    bottom: 220px !important;
-}
+
 
 .link-footer {
     right: 0;
@@ -143,30 +149,22 @@ h2 {
 
 }
 
+.txt-studio {
+    font-size: 12px !important;
+}
+
 @media all and (min-width:1400px) {
     .article-card {
         margin: 0 200px;
     }
 
-    .container-email {
-        margin-top: 112px;
+    .txt-value {
+        width: 572px;
     }
 
-    .part-value {
-        padding-top: 80px !important;
-    }
 
-    .section-fifth {
-        padding-top: 120px;
-    }
-
-    .btn-submit {
-        width: 150px !important;
-
-    }
-
-    .part-input {
-        width: 300px !important;
+    input {
+        border: 0 !important;
     }
 
     .txt-header {
@@ -298,9 +296,11 @@ h2 {
         font-size: 12px !important;
     }
 
-    .part-forth {
+    .back-img2 {
+        background-image: url(../images/photo_2024-09-22_20-26-29.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 400px;
-        margin-top: 80px !important;
     }
 
     .part-six {
@@ -312,6 +312,7 @@ h2 {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 40%;
+        height: 900px;
     }
 
     .container-circle {
