@@ -107,6 +107,9 @@ h2 {
     width: 30px;
 }
 
+.img-offcanvas {
+    width: 40px;
+}
 
 .part-six {
     background-image: url(../images/photo_2024-09-22_20-26-29.jpg);
@@ -234,6 +237,10 @@ h2 {
         background-color: #202021 !important;
     }
 
+    .icon-header:hover {
+        transform: none;
+    }
+
     .txt-header {
         margin-top: 200px;
     }
@@ -285,10 +292,19 @@ h2 {
 }
 
 @media all and (max-width:767px) {
-    .img-icon {
-        width: 180px;
-        margin: 0 auto;
+    .dropdown-menu {
+        background-color: transparent;
+        padding: 0;
     }
+
+    .icon-header:hover {
+        transform: none;
+    }
+
+    .container-social>li>a:hover {
+        transform: none;
+    }
+
 
     .txt-email {
         font-size: 12px;
@@ -342,4 +358,9 @@ h2 {
     .container-caption {
         bottom: 100px !important;
     }
+
+    .img-icon {
+        width: 80px;
+    }
+
 }

@@ -22,14 +22,19 @@
 <body>
     <div class="container-fluid custom">
         <div class="row">
-            <div class="col-lg-12 col-xxl-10 mx-xxl-auto">
+            <div class="col-12 col-xxl-10 mx-xxl-auto">
                 <nav class="navbar navbar-expand-lg bg-transparent mt-lg-2">
                     <div class="container-fluid">
                         <a class="d-block d-md-none d-lg-block navbar-brand text-white fs-4 fw-bold" href="#">Radan</a>
-                        <button class="navbar-toggler border-0 ms-auto" type="button" data-bs-toggle="collapse"
+                        <button class="navbar-toggler border-0 ms-auto d-none" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <button class="navbar-toggler border-0 order-1" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon bg-secondary-subtle rounded-2"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-0 mb-2 mb-lg-0 ms-auto">
@@ -122,11 +127,119 @@
                             <i class="bi bi-arrow-right fs-5 ms-1"></i></button>
                     </div>
                 </nav>
-            </div>
+                <nav class="navbar bg-transparent fixed-top">
+                    <div class="container-fluid">
 
+
+                        <div class="w-75 offcanvas offcanvas-end bg-body-secondary py-4" tabindex="-1"
+                            id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header align-items-center">
+                                <img src="../images/radweb.jpg" class="img-offcanvas d-block  rounded-5">
+                                <h5 class="offcanvas-title ms-3" id="offcanvasNavbarLabel">RadWeb</h5>
+
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body px-4">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+                                    <li class="nav-item dropdown py-1">
+                                        <a class="nav-link dropdown-toggle text-black fw-bold me-2" href="#"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Home Layouts
+                                        </a>
+                                        <ul class="dropdown-menu border-0">
+                                            <li><a class="dropdown-item active bg-white text-black" href="#">Home
+                                                    page(Template 1)</a></li>
+                                            <li><a class="dropdown-item" href="#">Home page(Template 2)</a></li>
+                                        </ul>
+                                    </li>
+                                    <hr class="my-1">
+                                    <li class="nav-item dropdown py-2">
+                                        <a class="nav-link dropdown-toggle text-black fw-bold me-2" href="#"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Info Pages </a>
+                                        <ul class="dropdown-menu border-0">
+                                            <li><a class="dropdown-item" href="pages/About.html">About(Template 1)</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">About(Template 2)</a></li>
+                                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                    <hr class="my-1">
+                                    <li class="nav-item dropdown py-2">
+                                        <a class="nav-link dropdown-toggle text-black fw-bold me-2" href="#"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Pages
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Services</a></li>
+                                            <li><a class="dropdown-item" href="#">Podcast</a></li>
+                                            <li><a class="dropdown-item" href="#">Freebies</a></li>
+                                            <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                                            <li><a class="dropdown-item" href="#">Faqs</a></li>
+                                            <li><a class="dropdown-item" href="#">Instagram Links</a></li>
+                                            <li><a class="dropdown-item" href="#">Newsletter</a></li>
+                                            <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                                            <li><a class="dropdown-item" href="#">Price List</a></li>
+                                        </ul>
+                                    </li>
+                                    <hr class="my-1">
+                                    <li class="nav-item dropdown py-2">
+                                        <a class="nav-link dropdown-toggle text-black fw-bold me-2" href="#"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Portfolio
+                                        </a>
+                                        <ul class="dropdown-menu border-0">
+                                            <li><a class="dropdown-item" href="#">Portfolio Archive Layout</a></li>
+                                            <li><a class="dropdown-item" href="#">Single Project Layout</a></li>
+                                        </ul>
+                                    </li>
+                                    <hr class="my-1">
+                                    <li class="nav-item dropdown py-2">
+                                        <a class="nav-link dropdown-toggle text-black fw-bold me-2" href="#"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Blog
+                                        </a>
+                                        <ul class="dropdown-menu border-0">
+                                            <li><a class="dropdown-item" href="#">Post Archive Layout </a></li>
+                                            <li><a class="dropdown-item" href="#">Single Post Layout</a></li>
+                                        </ul>
+                                    </li>
+                                    <hr class="my-1">
+                                    <li class="nav-item dropdown py-2">
+                                        <a class="nav-link dropdown-toggle text-black fw-bold me-2" href="#"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Shop
+                                        </a>
+                                        <ul class="dropdown-menu border-0">
+                                            <li><a class="dropdown-item" href="#">Product Archive Layout</a></li>
+                                            <li><a class="dropdown-item" href="#">Single Product Layout</a></li>
+                                            <li><a class="dropdown-item" href="#">My account</a></li>
+                                            <li><a class="dropdown-item" href="#">Checkout</a></li>
+                                            <li><a class="dropdown-item" href="#">Cart</a></li>
+                                        </ul>
+                                    </li>
+                                    <hr class="my-1">
+                                </ul>
+                                <ul class="container-social p-0 fs-6 my-2 py-4">
+                                    <li class="me-3"> <a class="link icon-header" href="#"><i
+                                                class="bi bi-facebook"></i></a></li>
+                                    <li class="me-3"> <a class="link icon-header" href="#"><i
+                                                class="bi bi-twitter"></i></a></li>
+                                    <li class="me-3"> <a class="link icon-header" href="#"><i
+                                                class="bi bi-instagram"></i></a></li>
+                                </ul>
+                                <button type="button" class=" fs-6 text-black px-1 px-1 mt-3 bg-white rounded-0">My
+                                    resume
+                                    <i class="bi bi-arrow-right fs-5 ms-1"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </div>
         <div class="row">
-            <div class="col-11 col-md-6 col-lg-8 col-xxl-7 mx-auto mt-5 txt-header">
+            <div class="col-11 col-md-10 col-lg-8 col-xxl-7 mx-auto mt-5 txt-header">
                 <h2 class=" text-center text-white  pt-5 fw-bold">Measuring excellence in coding by the
                     number of lines
                     of code is like measuring weight when building
@@ -136,7 +249,7 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row main-2 pb-5 part-third">
+        <div class="row main-2 pb-5 bg-secondary-subtle">
             <div class="col-9 col-md-4 col-lg-5 col-xl-4 px-4  offset-xl-1 offset-xxl-2">
                 <p>FOCUS ON</p>
                 <p class="fw-bold fs-3 mb-0 ">My name is Radan, I am a WordPress site designer and SEO expert.
@@ -170,49 +283,64 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-lg-12 part-1 mx-auto pb-5">
+            <div class="col-12  part-1 mx-auto">
                 <p class="w-lg-50 fw-bold fs-1 mx-auto text-center">My skills and work experience with</p>
             </div>
-            <div class="col-12">
-                <div id="carouselExampleSlidesOnly" class="d-lg-none carousel slide" data-bs-ride="carousel">
+            <div class="col-8 col-sm-6  col-lg-10 col-xxl-7 mx-auto px-0 px-sm-1">
+                <div id="carouselExampleSlidesOnly" class="d-none d-md-block d-lg-none carousel slide mb-5"
+                    data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="../images/images (1).jfif" class="img-icon me-5">
+                            <img src="../images/images (1).png" class="img-icon me-2 me-3">
+                            <img src="../images/images.png" class="img-icon me-2 me-3">
+                            <img src="../images/HTML5_logo_and_wordmark.svg.png" class="img-icon">
                         </div>
                         <div class="carousel-item">
-                            <img src="../images/HTML5_logo_and_wordmark.svg.png" class="img-icon me-5">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../images/images.png" class="img-icon me-5">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../images/images (1).png" class="img-icon">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../images/images.jfif" class="img-icon">
-                        </div>
-                        <div class="carousel-item">
+                            <img src="../images/images (1).jfif" class="img-icon me-2 me-3">
+                            <img src="../images/images.jfif" class="img-icon me-2 me-3">
                             <img src="../images/seo-search-engine-logo-with-magnifying-glass-and-arrow-vector.jpg"
                                 class="img-icon">
                         </div>
+
+                    </div>
+                </div>
+                <div id="carouselExampleSlidesOnly" class="d-block d-md-none carousel slide mb-5"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../images/images (1).png" class="img-icon me-2 me-3">
+
+                            <img src="../images/HTML5_logo_and_wordmark.svg.png" class="img-icon">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/images (1).jfif" class="img-icon me-2 me-3">
+                            <img src="../images/images.jfif" class="img-icon me-2 me-3">
+
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/images.png" class="img-icon me-2 me-3">
+
+                            <img src="../images/seo-search-engine-logo-with-magnifying-glass-and-arrow-vector.jpg"
+                                class="img-icon">
+                        </div>
+
                     </div>
                 </div>
             </div>
-            <div
-                class="d-none d-lg-block col-lg-9 col-xxl-7 d-flex align-items-center justify-content-center mx-auto  mb-5">
-                <img src="../images/images (1).jfif" class="img-icon me-5">
-                <img src="../images/HTML5_logo_and_wordmark.svg.png" class="img-icon me-5">
-                <img src="../images/images.png" class="img-icon me-5">
-                <img src="../images/images (1).png" class="img-icon me-5">
-                <img src="../images/images.jfif" class="img-icon me-5">
+            <div class="d-none d-lg-flex align-items-center justify-content-center mx-auto  mb-5">
+                <img src="../images/images (1).jfif" class="img-icon me-3">
+                <img src="../images/HTML5_logo_and_wordmark.svg.png" class="img-icon me-3">
+                <img src="../images/images.png" class="img-icon me-3">
+                <img src="../images/images (1).png" class="img-icon me-3">
+                <img src="../images/images.jfif" class="img-icon me-3">
                 <img src="../images/seo-search-engine-logo-with-magnifying-glass-and-arrow-vector.jpg" class="img-icon">
 
             </div>
         </div>
         <div class="row section-fifth">
-            <div class="col-10 col-md-11 col-lg-6 col-xl-6 px-4 px-md-0 mx-auto mx-xl-0 part-forth">
+            <div class="col-10 col-md-11 col-lg-6 col-xl-6 px-4 px-md-0 mx-auto mx-lg-0 part-forth">
             </div>
-            <div class="col-12 col-lg-6 col-xl-5 px-5 py-5 pb-3 part-value">
+            <div class="col-12 col-md-11 col-lg-5 col-xl-5 px-5 px-md-0 mx-md-auto py-5 pb-3 pb-lg-0 part-value">
                 <h2 class="mb-4 fs-1 fw-bold">But it didn’t end there. There were so many things I still had to learn.
                 </h2>
 
@@ -227,10 +355,10 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row py-5 part-third">
-            <div class="col-12  col-xl-6 col-xxl-5 px-4 me-xxl-0 offset-xxl-1 px-xxl-0 pt-5 ">
-                <h2 class="fw-bold text-md-center text-xl-start fs-1">Keep in touch </h2>
-                <p class="text-md-center text-xl-start">So, if you don't have a website yet or your current website
+        <div class="row py-5 bg-secondary-subtle">
+            <div class="col-12 col-lg-6  col-xxl-5 px-4 me-xxl-0 offset-xxl-1 px-xxl-0 pt-5 ">
+                <h2 class="fw-bold text-md-start  fs-1">Keep in touch </h2>
+                <p class="text-md-start ">So, if you don't have a website yet or your current website
                     needs updating,
                     now is the perfect time
                     to
@@ -241,18 +369,18 @@
                     the digital world together and take advantage of its unique opportunities!</p>
             </div>
             <div
-                class="col-12 col-md-8 col-lg-10 col-xl-5 col-xxl-4 offset-xl-1 offset-xxl-0 container-email px-4  mx-md-auto me-xl-0 mx-xxl-auto mt-xxl-5 py-4">
+                class="col-12 col-md-10 col-lg-5  col-xxl-4 offset-xl-1 offset-xxl-0 mt-md-5 px-4  mx-md-auto me-xl-0 mx-xxl-auto mt-xxl-5 py-5">
                 <input type="email" name="email" id="email" placeholder="Your Email Address"
-                    class="w-100  px-2 py-2 mb-3 part-input">
+                    class="w-100  px-2 py-2 mb-3 part-input border-0">
                 <button type="submit"
-                    class="w-100  px-5 py-2 bg-black text-white text-uppercase fs-6 rounded rounded-2  ms-lg-3 ms-xl-0 btn-submit">join
+                    class="w-100  px-5 py-2 bg-black text-white text-uppercase fs-6 rounded rounded-2  ms-xxl-3 ms-xl-0 btn-submit">join
                     now</button>
             </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-lg-6 col-xl-5 offset-xxl-1  px-5  py-5 pb-3">
+            <div class="col-12 col-lg-6   px-5  py-5 pb-3">
                 <p class="mb-4 fs-6 pb-xxl-1">My values</p>
                 <h2 class="fs-1 fw-bold pb-xxl-5 txt-value">3 things about me you should know</h2>
                 <h4 class="fw-bold">Not to lie</h6>
@@ -275,17 +403,19 @@
                                 fill a defect that exists in themselves and their lives.</p>
 
             </div>
-            <div class="col-10 col-md-11 col-lg-6 col-xl-6 px-4 px-md-0 mx-auto mx-xl-0 back-img2 order-first"></div>
+            <div class="col-10 col-md-11 col-lg-6 px-4 px-md-0 mx-auto mx-xl-0 back-img2 order-first order-lg-0">
+            </div>
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row part-third pt-xxl-5">
-            <div class="col-xxl-7 offset-xxl-1">
-                <h2 class="fs-1 fw-bold  py-5">
+        <div class="row bg-secondary-subtle pt-xxl-5">
+            <div class="col-12 col-md-8 col-xl-7  offset-xl-1 px-4 mb-md-5">
+                <h2 class="fw-bold my-5 text-studio">
                     About my Studio
                 </h2>
                 <p class="txt-studio text-uppercase">mahya radan</p>
-                <p class="">Rad Web Company was established with the aim of providing new and creative solutions in the
+                <p class="">Rad Web Company was established with the aim of providing new and creative solutions
+                    in the
                     field of
                     website design and development. As an expert and committed team, we help businesses to strengthen
                     their online presence and achieve their business goals.
@@ -298,15 +428,15 @@
                     development of web and mobile applications. We are committed to using the latest technologies and
                     best design practices to provide our visitors with an unparalleled user experience.</p>
             </div>
-            <div class="col-xxl-3 px-xxl-5 pt-xxl-5">
-                <p class="txt-studio">services</p>
-                <p class="pb-xxl-4">web design & seo services</p>
-                <p class="txt-studio">hours</p>
-                <p class="pb-xxl-4">saturday – wendsday: 9 am – 5 pm</p>
-                <p class="txt-studio">location</p>
-                <p class="pb-xxl-4">karaj koymehr servestan complex</p>
-                <p class="txt-studio">mail</p>
-                <p class="pb-xxl-4">mahya.radan@gmai.com</p>
+            <div class="col-12 col-md-3  pt-xxl-5 px-4 mb-5 mb-md-0">
+                <p class="txt-studio mb-1 mt-md-5">services</p>
+                <p class="mb-xxl-5 mb-md-4">web design & seo services</p>
+                <p class="txt-studio mb-1">hours</p>
+                <p class="mb-xxl-5 mb-md-4">saturday – wendsday: 9 am – 5 pm</p>
+                <p class="txt-studio mb-1">location</p>
+                <p class="mb-xxl-5 mb-md-4">karaj koymehr servestan complex</p>
+                <p class="txt-studio mb-1">mail</p>
+                <p class="mb-xxl-5 mb-md-4">mahya.radan@gmai.com</p>
 
             </div>
 
@@ -321,7 +451,7 @@
                         <div class="carousel-item active custom-img">
                             <img src="../images/20240915_214128.jpg" class="d-none d-lg-block w-100" alt="...">
                             <div class="carousel-caption d-block d-md-block">
-                                <h2 class="mb-4 fw-bold">Why we are the best choice for you</h2>
+                                <h2 class="mb-3 fw-bold">Why we are the best choice for you</h2>
                                 <p class="fs-5 mb-5">Our goal is to create websites that are not only beautiful and
                                     attractive,
                                     but also have great functionality and functionality to grow your business. With
@@ -355,16 +485,16 @@
     </div>
     <div class="container-fluid">
         <div class="row pt-5">
-            <div class="col-11 col-lg-12 d-flex flex-column px-4 mx-auto align-items-center">
+            <div class="col-12 col-lg-12 d-flex flex-column px-0 px-lg-4 mx-0 mx-lg-auto align-items-center">
 
                 <p class="text-uppercase">meet the team</p>
-                <h3 class="fw-bold text-center">A team of professionals exclusively for you</h3>
+                <h3 class="fw-bold text-center txt-team">A team of professionals exclusively for you</h3>
             </div>
 
         </div>
 
-        <div class="row mt-5 article-card px-lg-0">
-            <div class="col-12 col-sm-6 col-lg-4 px-0 px-xxl-4 mx-0 mx-sm-0 mb-3 mb-xxl-0">
+        <div class="row my-5 article-card px-lg-0 justify-content-md-between justify-content-xl-start">
+            <div class="col-12  col-md-3 col-xl-4 px-0   px-xl-4 mx-xl-auto mx-0  mb-3 mb-md-0">
                 <a href="#" class="text-decoration-none text-black">
                     <div class="card bg-transparent border-0">
                         <img src="../images/person1.jpg" class="card-img-top rounded-0 mb-5 mb-xxl-1" alt="...">
@@ -374,7 +504,7 @@
                             <p class="card-text text-sm-start fw-bold mb-3">Nemo enim ipsam voluptatem quia voluptas sit
                                 aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
                                 voluptatem sequi nesciunt. </p>
-                            <ul class="container-social p-0 fs-6 mb-0 py-4">
+                            <ul class="container-social px-1 fs-6 mb-0 py-4">
                                 <li class="me-3"> <a class="link" href="#"><i class="bi bi-envelope"></i></a></li>
                                 <li class="me-3"> <a class="link" href="#"><i class="bi bi-behance"></i></a></li>
                                 <li class="me-3"> <a class="link" href="#"><i class="bi bi-linkedin"></i></a></li>
@@ -385,7 +515,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-12 col-sm-6 col-lg-4 px-0 mx-0 px-xxl-4  mx-sm-0 mb-3 mb-xxl-0">
+            <div class="col-12  col-md-3 col-xl-4  px-0   px-xl-4 mx-xl-auto mx-0  mb-3 mb-md-0">
                 <a href=" #" class="text-decoration-none text-black">
                     <div class="card bg-transparent border-0">
                         <img src="../images/person2.jpg" class="card-img-top rounded-0 mb-5 mb-xxl-1" alt="...">
@@ -395,7 +525,7 @@
                             <p class="card-text text-start fw-bold mb-3">Nemo enim ipsam voluptatem quia voluptas sit
                                 aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
                                 voluptatem sequi nesciunt. </p>
-                            <ul class="container-social p-0 fs-6 mb-0 py-4">
+                            <ul class="container-social px-1 fs-6 mb-0 py-4">
                                 <li class="me-3"> <a class="link" href="#"><i class="bi bi-envelope"></i></a></li>
                                 <li class="me-3"> <a class="link" href="#"><i class="bi bi-behance"></i></a></li>
                                 <li class="me-3"> <a class="link" href="#"><i class="bi bi-linkedin"></i></a></li>
@@ -406,17 +536,17 @@
                     </div>
                 </a>
             </div>
-            <div class="col-12 col-sm-6 col-lg-4 px-0 mx-0 px-xxl-4 mx-sm-0">
+            <div class="col-12 col-md-3 col-xl-4 px-0  px-xl-4 mx-xl-auto mx-0 mb-md-0">
                 <a href=" #" class="text-decoration-none text-black">
                     <div class="card bg-transparent border-0">
                         <img src="../images/person3.jpg" class="card-img-top rounded-0 mb-5 mb-xxl-1" alt="...">
-                        <div class="card-body rounded-0 p-0 p-xxl-4">
+                        <div class="card-body rounded-0 p-0 p-xxl-4 mb-5 mb-lg-0">
                             <h4 class="text-start text-capitalize fw-bold mb-3">sara poli</h4>
                             <p class="text-start mb-3">Seo</p>
                             <p class="card-text text-start fw-bold mb-3">Nemo enim ipsam voluptatem quia voluptas sit
                                 aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
                                 voluptatem sequi nesciunt. </p>
-                            <ul class="container-social p-0 fs-6 mb-0 py-4">
+                            <ul class="container-social px-1 fs-6 mb-0 py-4">
                                 <li class="me-3"> <a class="link" href="#"><i class="bi bi-envelope"></i></a></li>
                                 <li class="me-3"> <a class="link" href="#"><i class="bi bi-behance"></i></a></li>
                                 <li class="me-3"> <a class="link" href="#"><i class="bi bi-linkedin"></i></a></li>
@@ -430,9 +560,9 @@
         </div>
     </div>
     <div class="container-fluid ">
-        <div class="row part-third">
+        <div class="row bg-secondary-subtle">
             <div
-                class="col-10 col-sm-12 col-xl-12 col-xxl-10 offset-xxl-1 px-4 mx-auto mx-sm-0 my-5 ps-xl-5  mx-xxl-auto">
+                class="col-10 col-sm-12  col-xxl-10 offset-xxl-1 px-4 px-md-5 mx-auto mx-sm-0 my-5 ps-xl-5  mx-xxl-auto">
                 <a href="#"
                     class="d-block position-relative position-sm-static text-center text-sm-start text-decoration-none text-black fw-bold fs-6">Are
                     you ready to work together? <i
@@ -440,7 +570,7 @@
             </div>
             <hr class="border-2 border-black">
         </div>
-        <div class="row part-third">
+        <div class="row bg-secondary-subtle">
             <div class="col-12 col-lg-4 col-xl-3 offset-xxl-1 ps-xl-4 px-4 py-5">
                 <h3 class="fw-bold mb-3">zahra radan</h3>
                 <p>Website design is important because it creates a user-friendly experience, improves brand identity,
@@ -471,12 +601,12 @@
                 <p>Blog</p>
             </div>
         </div>
-        <div class="row part-third">
+        <div class="row bg-secondary-subtle">
             <div class="col-12  col-lg-12 col-xxl-11 offset-xxl-1 ps-xl-4 px-4 position-relative">
                 <p class="my-5 text-black">© 2024 Edith - WordPress Theme by <a href="#"
                         class="text-decoration-none text-black">Her creative details</a></p>
                 <a href="#" class="d-none d-sm-block text-black"><i
-                        class="bi bi-arrow-up-short fs-3 position-absolute link-footer mb-4 me-4 "></i></a>
+                        class="bi bi-arrow-up-short fs-3 position-fixed bg-secondary-subtle link-footer mb-4 me-4 px-1 py-0"></i></a>
             </div>
         </div>
     </div>

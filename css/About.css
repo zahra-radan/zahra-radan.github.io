@@ -26,8 +26,8 @@ html {
 }
 
 .part-1 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .dropdown-item {
@@ -93,7 +93,7 @@ h2 {
   background-image: url(../images/photo_2024-09-25_17-21-24.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 504px;
 }
 
 .back-img2 {
@@ -135,13 +135,17 @@ h2 {
   border-radius: 50%;
 }
 
+.img-offcanvas {
+  width: 40px;
+}
+
 .link-footer {
   right: 0;
   bottom: 0;
 }
 
 .txt-studio {
-  font-size: 12px !important;
+  font-size: 14px !important;
 }
 
 @media all and (min-width: 1400px) {
@@ -150,9 +154,6 @@ h2 {
   }
   .txt-value {
     width: 572px;
-  }
-  input {
-    border: 0 !important;
   }
   .txt-header {
     padding-top: 160px !important;
@@ -170,7 +171,7 @@ h2 {
     padding-top: 80px !important;
   }
   .btn-submit {
-    width: 150px !important;
+    width: 300px !important;
   }
   .section-fifth {
     padding-top: 120px;
@@ -188,7 +189,7 @@ h2 {
     padding-top: 160px;
   }
   .part-input {
-    width: 500px !important;
+    width: 300px !important;
   }
   .container-email {
     margin-top: 112px;
@@ -197,8 +198,10 @@ h2 {
     padding-top: 80px !important;
   }
   .btn-submit {
-    width: 200px !important;
-    margin-left: 20px;
+    width: 300px !important;
+  }
+  .text-studio {
+    font-size: 32px;
   }
 }
 
@@ -209,18 +212,14 @@ h2 {
   .txt-header {
     margin-top: 200px;
   }
-  .container-email {
-    margin-top: 112px;
+  .back-img2 {
+    background-image: url(../images/photo_2024-09-22_20-26-29.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
   }
   .part-value {
     padding-top: 80px !important;
-  }
-  .part-input {
-    width: 280px !important;
-  }
-  .btn-submit {
-    width: 150px !important;
-    margin-left: 20px;
   }
   .part-forth {
     height: 400px;
@@ -244,12 +243,21 @@ h2 {
   .txt-header {
     padding-top: 160px;
   }
+  .text-studio {
+    font-size: 32px;
+  }
+  .icon-header:hover {
+    transform: none;
+  }
 }
 
 @media all and (max-width: 767px) {
-  .img-icon {
-    width: 180px;
-    margin: 0 auto;
+  .dropdown-menu {
+    background-color: transparent;
+    padding: 0;
+  }
+  .icon-header:hover {
+    transform: none;
   }
   .txt-email {
     font-size: 12px;
@@ -261,7 +269,7 @@ h2 {
     background-image: url(../images/photo_2024-09-22_20-26-29.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 600px;
   }
   .part-six {
     height: 400px;
@@ -279,6 +287,12 @@ h2 {
   .container-caption {
     bottom: 200px !important;
   }
+  .txt-team {
+    font-size: 29px;
+  }
+  .text-studio {
+    font-size: 32px;
+  }
 }
 
 @media all and (max-width: 575px) {
@@ -294,5 +308,8 @@ h2 {
   }
   .container-caption {
     bottom: 100px !important;
+  }
+  .img-icon {
+    width: 80px !important;
   }
 }
