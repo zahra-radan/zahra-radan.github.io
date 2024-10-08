@@ -10,7 +10,6 @@
     background-image: url(../images/best-laptop-for-programming.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50%;
     font-family: "Roboto", sans-serif;
     height: 768px;
 }
@@ -19,34 +18,13 @@ html {
     scroll-behavior: smooth;
 }
 
-.button-header {
-    background-color: rgb(182, 243, 189);
-    font-size: 12px;
-    line-height: 30px
-}
-
-.part-1 {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.dropdown-item {
-    padding: 13px !important;
-    font-size: 14px !important;
-}
-
-.dropdown-menu {
-    background-color: rgb(182, 243, 189);
-    padding: 0;
-}
-
 .dropdown-item:hover {
     background-color: black;
     color: white;
 }
 
-h2 {
-    line-height: 48px;
+.btn-nav:hover {
+    background-color: #5c636a !important;
 }
 
 .img-logo {
@@ -77,49 +55,22 @@ h2 {
     }
 }
 
-.main-2 {
-    padding-top: 200px;
-}
 
-.part-third {
-    background-color: rgb(182, 243, 189);
-}
-
-
-
-
-
-.section-six {
-    padding-top: 150px !important;
-}
-
-.part-forth {
+.background-2 {
     background-image: url(../images/photo_2024-09-25_17-21-24.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 504px;
 }
 
-.back-img2 {
+.background-3 {
     background-image: url(../images/photo_2024-09-22_20-26-29.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
-}
-
-.btn-blog {
-    padding: 80px 0;
 }
 
 .img-logo2 {
     width: 30px;
-}
-
-
-.part-six {
-    background-image: url(../images/photo_2024-09-22_20-26-29.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .part-seven {
@@ -145,79 +96,43 @@ h2 {
     width: 40px;
 }
 
-
 .link-footer {
     right: 0;
     bottom: 0;
-
 }
 
 .txt-studio {
     font-size: 14px !important;
 }
 
-@media all and (min-width:1400px) {
-    .article-card {
-        margin: 0 200px;
-    }
+.btn-resome:hover {
+    background-color: #6c757d !important;
+}
 
+.btn-contact:hover {
+    background-color: #e2e3e5 !important;
+}
+
+@media all and (min-width:1400px) {
     .txt-value {
         width: 572px;
     }
 
-
-    .txt-header {
-        padding-top: 160px !important;
+    .background-3 {
+        height: 594px !important;
     }
 }
 
 
-@media all and (min-width:1200px) and (max-width:1399px) {
-    .part-input {
-        width: 300px !important;
-    }
-
-    .container-email {
-        margin-top: 112px;
-    }
-
-    .part-value {
-        padding-top: 80px !important;
-    }
-
-    .btn-submit {
-        width: 300px !important;
-
-    }
-
-    .section-fifth {
-        padding-top: 120px;
-    }
-
-    .txt-header {
-        padding-top: 160px;
-    }
-}
+@media all and (min-width:1200px) and (max-width:1399px) {}
 
 @media all and (min-width:992px) and (max-width:1199px) {
     .navbar-collapse {
         font-size: 14px !important;
     }
 
-    .txt-header {
-        padding-top: 160px;
-    }
-
     .part-input {
         width: 300px !important;
-    }
-
-    .container-email {
-        margin-top: 112px;
-    }
-
-    .part-value {
-        padding-top: 80px !important;
     }
 
     .btn-submit {
@@ -235,31 +150,15 @@ h2 {
         background-color: #202021 !important;
     }
 
-    .txt-header {
-        margin-top: 200px;
-    }
-
     .back-img2 {
         background-image: url(../images/photo_2024-09-22_20-26-29.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 600px;
-    }
 
-    .part-value {
-        padding-top: 80px !important;
     }
 
 
-
-    .part-forth {
-        height: 400px;
-        margin-top: 80px !important;
-    }
-
-    .part-six {
-        height: 400px;
-    }
 
     .custom-img {
         background-image: url("../images/best-laptop-for-programming.jpg");
@@ -284,22 +183,11 @@ h2 {
         font-size: 32px;
     }
 
-    .icon-header:hover {
-        transform: none;
-    }
-
 }
 
 @media all and (max-width:767px) {
 
-    .dropdown-menu {
-        background-color: transparent;
-        padding: 0;
-    }
 
-    .icon-header:hover {
-        transform: none;
-    }
 
 
 
@@ -311,11 +199,16 @@ h2 {
         font-size: 12px !important;
     }
 
+    .custom {
+        background-position-x: 70% !important;
+    }
+
     .back-img2 {
         background-image: url(../images/photo_2024-09-22_20-26-29.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 600px;
+
     }
 
     .part-six {
@@ -330,13 +223,7 @@ h2 {
         height: 900px;
     }
 
-    .container-circle {
-        bottom: 150px !important;
-    }
 
-    .container-caption {
-        bottom: 200px !important;
-    }
 
     .txt-team {
         font-size: 29px;
@@ -348,6 +235,15 @@ h2 {
 }
 
 @media all and (max-width:575px) {
+
+    .background-2 {
+        background-position-x: 20%;
+    }
+
+    .background-3 {
+        background-position-x: 20%;
+    }
+
     .part-third>div>a {
         width: 174px !important;
     }
@@ -367,5 +263,9 @@ h2 {
 
     .img-icon {
         width: 80px !important;
+    }
+
+    .custom-img {
+        background-position-x: 70%;
     }
 }

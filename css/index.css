@@ -10,7 +10,6 @@
   background-image: url(../images/20240915_214128.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50%;
   font-family: "Roboto", sans-serif;
   height: 768px;
 }
@@ -19,34 +18,13 @@ html {
   scroll-behavior: smooth;
 }
 
-.button-header {
-  background-color: #b6f3bd;
-  font-size: 12px;
-  line-height: 30px;
-}
-
-.part-1 {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.dropdown-item {
-  padding: 13px !important;
-  font-size: 14px !important;
-}
-
-.dropdown-menu {
-  background-color: #b6f3bd;
-  padding: 0;
-}
-
 .dropdown-item:hover {
   background-color: black;
   color: white;
 }
 
-h2 {
-  line-height: 48px;
+.btn-nav:hover {
+  background-color: #5c636a !important;
 }
 
 .img-logo {
@@ -77,26 +55,10 @@ h2 {
   transform: scale(1.1);
 }
 
-.main-2 {
-  padding-top: 200px;
-}
-
-.part-third {
-  background-color: #b6f3bd;
-}
-
-.section-six {
-  padding-top: 150px !important;
-}
-
 .part-forth {
   background-image: url(../images/photo_2024-09-25_17-21-24.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.btn-blog {
-  padding: 60px 0;
 }
 
 .img-logo2 {
@@ -141,27 +103,16 @@ h2 {
   bottom: 0;
 }
 
+.btn-blog:hover {
+  background-color: black !important;
+}
+
 @media all and (min-width: 1400px) {
-  .article-card {
-    margin: 0 200px;
-  }
-  .container-email {
-    margin-top: 112px;
-  }
-  .part-value {
-    padding-top: 80px !important;
-  }
-  .section-fifth {
-    padding-top: 120px;
-  }
   .btn-submit {
     width: 150px !important;
   }
   .part-input {
     width: 300px !important;
-  }
-  .txt-header {
-    padding-top: 160px !important;
   }
 }
 
@@ -169,20 +120,8 @@ h2 {
   .part-input {
     width: 300px !important;
   }
-  .container-email {
-    margin-top: 112px;
-  }
-  .part-value {
-    padding-top: 80px !important;
-  }
   .btn-submit {
     width: 150px !important;
-  }
-  .section-fifth {
-    padding-top: 120px;
-  }
-  .txt-header {
-    padding-top: 160px;
   }
 }
 
@@ -190,17 +129,11 @@ h2 {
   .navbar-collapse {
     font-size: 14px !important;
   }
-  .txt-header {
-    padding-top: 160px;
-  }
   .part-input {
     width: 500px !important;
   }
   .container-email {
     margin-top: 112px;
-  }
-  .part-value {
-    padding-top: 80px !important;
   }
   .btn-submit {
     width: 200px !important;
@@ -212,17 +145,8 @@ h2 {
   #navbarSupportedContent {
     background-color: #202021 !important;
   }
-  .icon-header:hover {
-    transform: none;
-  }
-  .txt-header {
-    margin-top: 200px;
-  }
   .container-email {
     margin-top: 112px;
-  }
-  .part-value {
-    padding-top: 80px !important;
   }
   .part-input {
     width: 280px !important;
@@ -232,11 +156,12 @@ h2 {
     margin-left: 20px;
   }
   .part-forth {
-    height: 400px;
-    margin-top: 80px !important;
+    height: 600px;
+    background-position-y: 26%;
   }
   .part-six {
     height: 400px;
+    background-position-y: 70%;
   }
   .custom-img {
     background-image: url("../images/best-laptop-for-programming.jpg");
@@ -250,20 +175,13 @@ h2 {
   .container-caption {
     bottom: 230px !important;
   }
-  .txt-header {
-    padding-top: 160px;
-  }
 }
 
 @media all and (max-width: 767px) {
-  .dropdown-menu {
-    background-color: transparent;
-    padding: 0;
+  .custom {
+    background-position: 70% !important;
   }
   .icon-header:hover {
-    transform: none;
-  }
-  .container-social > li > a:hover {
     transform: none;
   }
   .txt-email {
@@ -274,7 +192,6 @@ h2 {
   }
   .part-forth {
     height: 400px;
-    margin-top: 80px !important;
   }
   .part-six {
     height: 400px;
