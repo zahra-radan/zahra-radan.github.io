@@ -104,7 +104,7 @@ html {
 }
 
 .btn-blog:hover {
-  background-color: black !important;
+  background-color: gray !important;
 }
 
 @media all and (min-width: 1400px) {
