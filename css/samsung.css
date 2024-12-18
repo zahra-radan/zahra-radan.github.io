@@ -511,7 +511,8 @@
     }
 
     .search3 {
-        right: 86% !important;
+        right: 90% !important;
+        top: 15%;
     }
 
     .lable-search2 {
@@ -540,7 +541,9 @@
         font-size: 10px;
     }
 
-
+    .parent-imges>a {
+        left: 31px;
+    }
 
 }
 
