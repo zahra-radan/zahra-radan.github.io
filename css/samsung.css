@@ -345,10 +345,10 @@
         margin-right: 114px;
     }
 
-    .mobile-computing {
+    /* .mobile-computing {
         top: 2% !important;
         left: 3% !important;
-    }
+    } */
 
 
     .item-mobile>a {
@@ -444,7 +444,7 @@
         background-color: #000;
     }
 
-    .smartthing {
+    .smartthing2 {
         right: 2% !important;
         bottom: 61% !important;
         width: 282px !important;
@@ -453,15 +453,15 @@
         align-items: center;
     }
 
-    .smartthing>h2,
+    .smartthing2>h2,
     p {
         text-align: center !important;
     }
 
-    .mobile-computing2 {
+    .mobile-computing3 {
         top: 4% !important;
-        left: 20% !important;
-        width: 168px !important;
+        left: 2% !important;
+        width: 293px !important;
     }
 
     .Sustainability1 {
@@ -949,16 +949,12 @@ a>span {
     width: 500px;
 }
 
-.mobile-computing2 {
+/* .mobile-computing2 {
     top: 46px;
     left: 37%;
-}
+} */
 
-.mobile-computing4 {
-    top: 4% !important;
-    left: 39% !important;
 
-}
 
 .lucky {
     right: 59%;
@@ -1128,11 +1124,6 @@ a>span {
     margin-bottom: 16px;
 }
 
-.smartthing2 {
-    right: 8%;
-    bottom: 63%;
-    width: 259px;
-}
 
 
 .Sustainability1 {
@@ -1255,4 +1246,12 @@ a>span {
     right: 73%;
     bottom: 17%;
     width: 281px;
+}
+
+@media all and(min-width:1200px) {
+    .mobile-computing4 {
+        top: 4% !important;
+        left: 39% !important;
+
+    }
 }
