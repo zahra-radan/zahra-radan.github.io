@@ -1256,10 +1256,11 @@ a>span {
     left: 39% !important;
 }
 
+
+
 @media all and (min-width:1400px) {
     .mobile-computing4 {
         top: 4% !important;
         left: 39% !important;
     }
-
 }
