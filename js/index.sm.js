@@ -515,39 +515,7 @@ scrollbar.addEventListener('mousemove', (e) => {
     parentImg.scrollLeft = newScrollLeft;
 });
 
-// function close_overlay() {
-//     OFFCANVAS.classList.remove("show-offcanvas");
-//     let key = setInterval(function () {
-//         opacity -= 5;
-//         OVERLAY.style.opacity = `${opacity}%`;
-//         if (opacity <= 0) {
-//             clearInterval(key);
-//         }
-//     }, 1);
-//     setTimeout(function () {
-//         OVERLAY.classList.remove("show-overlay");
-//     }, 300);
-// }
 
-// BTN.addEventListener("click", function () {
-//     OVERLAY.classList.add("show-overlay");
-//     let key = setInterval(function () {
-//         opacity += 5;
-//         OVERLAY.style.opacity = `${opacity}%`;
-//         if (opacity >= 100) {
-//             clearInterval(key);
-//         }
-//     }, 1);
-//     OFFCANVAS.classList.add("show-offcanvas");
-// });
-
-// ICON.addEventListener("click", close_overlay);
-
-// document.addEventListener("click", function (gholi) {
-//     if (gholi.target == OVERLAY) {
-//         close_overlay();
-//     }
-// });
 
 IMG_LOAD3[1].addEventListener("click", function () {
     GIFT[1].classList.remove("hidden");
@@ -642,7 +610,7 @@ ICON_FOOTER[6].addEventListener("click", function () {
     ICON_FOOTER[7].classList.remove("hidden");
 });
 ICON_FOOTER[7].addEventListener("click", function () {
-    SHOW_FOOTER[2].classList.add("hidden");
+    SHOW_FOOTER[3].classList.add("hidden");
     ICON_FOOTER[7].classList.add("hidden");
     ICON_FOOTER[6].classList.remove("hidden");
 });
