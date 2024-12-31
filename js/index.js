@@ -964,18 +964,18 @@ $(document).ready(function () {
         $(ANIMATED_APPLIANCE[3]).removeClass('show3');
         $(ANIMATED_APPLIANCE[0]).removeClass('show3');
         $(APPLIANCE).addClass("hidden");
-        $(APPLIANCE_IMG).addClass("hidden");
+        $(APPLIANCE_IMG2).addClass("hidden");
         $(LINE_APPLIANCE[0]).removeClass("hidden");
         $(LINE_APPLIANCE2[1]).addClass("hidden");
         $(LINE_APPLIANCE2[2]).addClass("hidden");
-        $(APPLIANCE_IMG[0]).removeClass("hidden");
+        $(APPLIANCE_IMG2[0]).removeClass("hidden");
         $(APPLIANCE[0]).removeClass("hidden");
-        $(ANIMATED_APPLIANCE[3]).each(function (index) {
+        $(ANIMATED_APPLIANCE2[3]).each(function (index) {
             setTimeout(() => {
                 $(this).addClass('show3');
             }, 500 * index);
         });
-        $(ANIMATED_APPLIANCE[0]).each(function (index) {
+        $(ANIMATED_APPLIANCE2[0]).each(function (index) {
             setTimeout(() => {
                 $(this).addClass('show3');
             }, 500 * index);

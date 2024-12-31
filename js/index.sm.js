@@ -566,6 +566,12 @@ IMG_LOAD4[3].addEventListener("click", function () {
     IMG_LOAD4[2].style.backgroundColor = "";
     IMG_LOAD4[0].style.backgroundColor = "";
 })
+IMG_LOAD4[4].addEventListener("click", function () {
+    EXPLORE[3].classList.add("hidden");
+    IMG_LOAD4[4].style.backgroundColor = "black";
+    IMG_LOAD4[3].style.backgroundColor = "";
+    IMG_LOAD4[0].style.backgroundColor = "";
+})
 IMG_LOAD4[0].addEventListener("click", function () {
     EXPLORE[0].classList.remove("hidden");
 
