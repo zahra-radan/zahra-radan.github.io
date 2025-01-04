@@ -199,7 +199,7 @@ a>span {
 }
 
 .item-4 {
-    width: 200px;
+
     font-size: 12px;
     margin-bottom: 12px;
 }
@@ -693,7 +693,9 @@ a>span {
 }
 
 
-
+.custom-font {
+    font-size: 14px !important;
+}
 
 
 @media all and (min-width:1400px) {
@@ -701,6 +703,8 @@ a>span {
         top: 4% !important;
         left: 39% !important;
     }
+
+
 }
 
 @media all and (max-width: 500px) {
